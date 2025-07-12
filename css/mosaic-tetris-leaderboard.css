@@ -1,0 +1,87 @@
+.blink {
+    animation: blinker 4s cubic-bezier(.55,.06,.68,.19) infinite;
+}
+
+.hard-blink {
+    animation: hard-blinker 1.5s step-start infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+
+    70% {
+        opacity: 0;
+    }
+}
+
+@keyframes hard-blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+h2, h3, .lead, .arcade-decoration {
+    font-family: "PressStart2P";
+}
+
+.arcade-decoration {
+    font-size: 1.5em;
+    margin: 0 auto;
+}
+
+.arcade-decoration.coins {
+    display: flex;
+    justify-content: space-between;
+}
+
+h3.arcade-decoration {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.highscores-table {
+    width: 100%;
+    font-family: "PressStart2P";
+    font-size: 1.5em;
+    margin: 0 auto;
+    border-collapse: collapse;
+
+}
+
+.highscores-table thead {
+    background-color: white;
+    color: #38383f;
+    height: 2rem;
+}
+
+.highscores-table td {
+    padding: .5rem 0;
+}
+
+tbody .mosaic-highscore-rank {
+    color: cyan;
+}
+
+tbody .mosaic-highscore-name {
+    color: orange;
+}
+
+tbody .mosaic-highscore-score {
+    color: lime;
+}
+
+tbody .mosaic-highscore-lines {
+    color: #ff4c4c;
+}
+
+.mosaic-highscore-score,
+.mosaic-highscore-lines {
+    text-align: end;
+}
+
+#insert-coin {
+    user-select: none;
+}

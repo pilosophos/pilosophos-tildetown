@@ -1,0 +1,74 @@
+html {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+body {
+    background-color: #38383f;
+    color: white;
+    font-family: NEC, sans-serif;
+    font-size: 16px;
+    max-width: 80ch;
+    padding: 1rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "DOSV JPN24", serif;
+    font-weight: normal;
+}
+
+a {
+    color: #9eecec;
+    text-decoration-style: dotted;
+    text-decoration-thickness: 1px;
+}
+
+a:hover {
+    color: white !important;
+}
+
+a:visited {
+    color: #9eecec;
+}
+
+.alert {
+    border: 1px solid rgb(255, 165, 0);
+    background-color: rgb(255, 165, 0, 8%);
+    padding: 0 1rem;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.font-display {
+    font-family: "DOSV JPN24", serif;
+}
+
+code {
+    font-family: "DOSV JPN24", monospace;
+    color: #ea86d4;
+}
+
+@font-face {
+    font-family: "NEC";
+    src: url( '/fonts/Web437_NEC_APC3_8x16.woff' );
+  }
+  
+  @font-face {
+    font-family: "Terminus";
+    src: url( '/fonts/Terminus.woff' );
+    size-adjust: 110%;
+  }
+  
+  @font-face {
+    font-family: "DOSV JPN24";
+    src: url( '/fonts/web_dos-v_re_jpn24.woff' );
+  }
+  
+  @font-face {
+    font-family: "PressStart2P";
+    src: url( '/fonts/PressStart2P-Regular.ttf' );
+    size-adjust: 70%;
+  }

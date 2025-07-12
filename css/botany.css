@@ -1,0 +1,43 @@
+.botany-plant {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.botany-plant pre {
+      overflow: unset;
+}
+
+.botany-info {
+    text-align: center;
+    max-width: 20rem;
+}
+
+.botany-info dl {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 1fr 1fr;
+}
+
+.botany-info dt {
+    font-weight: bold;
+}
+
+.botany-info dd {
+    margin-left: 0;
+}
+
+.botany-harvests {
+    width: 100%;
+    display: table;
+}
+
+.botany-harvests > tr > td {
+    padding-right: 2rem;
+}
+
+.harvest-score {
+    padding-right: 0 !important;
+    text-align: end;
+}
