@@ -3,7 +3,7 @@
     const harvestContainer = document.getElementById("harvested");
 
   }
-  fetch("/special/town/pilosophos_harvest_file.json")
+  fetch("special/town/pilosophos_harvest_file.json")
     .then(res => res.json)
     .then(showHarvests);
 
