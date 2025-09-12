@@ -13,7 +13,7 @@ body {
 }
 
 .bg-texture-dots {
-    background-image: radial-gradient(circle at 1px 1px, #79716b 1px, #38383f 0);
+    background-image: radial-gradient(circle at 1px 1px, hsl(26, 6%, 35%) 1px, #38383f 0);
     background-size: 40px 40px;
 }
 
