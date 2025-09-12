@@ -5,12 +5,16 @@ html {
 }
 
 body {
-    background-color: #38383f;
     color: white;
     font-family: NEC, sans-serif;
     font-size: 16px;
     max-width: 80ch;
     padding: 1rem;
+}
+
+.bg-texture-dots {
+    background-image: radial-gradient(circle at 1px 1px, #79716b 1px, #38383f 0);
+    background-size: 40px 40px;
 }
 
 h1, h2, h3, h4, h5, h6 {
