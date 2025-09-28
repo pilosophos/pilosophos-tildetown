@@ -5,12 +5,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Botany | Pilosophos @ tilde.town</title>
-  <link rel="stylesheet" href="css/global.css">
-  <link rel="stylesheet" href="css/botany.css">
+  <link rel="stylesheet" href="/~pilosophos/css/global.css">
+  <link rel="stylesheet" href="/~pilosophos/css/botany.css">
 </head>
 <body>
   <header>
-    <a href="index.html">← Back to homepage</a>
+    <a href="/~pilosophos/index.html">← Back to homepage</a>
 
     <h1>My Botany plant</h1>
     <p><a href="https://github.com/jifunks/botany">Botany</a> is a game on tilde.town where you water your plant every so often and it grows. See how my plant is doing here! It updates every 15 minutes, or when I have botany open.</p>
@@ -18,7 +18,7 @@
 
   <main>
     <section>
-      <tilde-botany plant="special/town/pilosophos_plant_data.json" template="botany-template" class="botany-plant">JavaScript is required to show this plant!</tilde-botany>
+      <tilde-botany plant="/~pilosophos/special/town/pilosophos_plant_data.json" template="botany-template" class="botany-plant">JavaScript is required to show this plant!</tilde-botany>
       <template id="botany-template">
         <div class="botany-art">
           <pre data-show="art"></pre>
@@ -41,7 +41,7 @@
       <section class="d-flex flex-column align-items-center">
         <h2>Harvested plants</h2>
         <p>A list of my previous plants</p>
-        <tilde-botany-harvests harvest-file="special/town/pilosophos_harvest_file.json" template="botany-harvest-template" class="botany-harvests">JavaScript is required to show harvested plants!</tilde-botany-harvests>
+        <tilde-botany-harvests harvest-file="/~pilosophos/special/town/pilosophos_harvest_file.json" template="botany-harvest-template" class="botany-harvests">JavaScript is required to show harvested plants!</tilde-botany-harvests>
       </section>
 
       <template id="botany-harvest-template">
@@ -54,7 +54,7 @@
     </section>
   </main>
 
-  <script src="js/botany.js"></script>
-  <script src="js/botany-harvest.js"></script>
+  <script src="/~pilosophos/js/botany.js"></script>
+  <script src="/~pilosophos/js/botany-harvest.js"></script>
 </body>
 </html>
